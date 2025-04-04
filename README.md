@@ -4,10 +4,14 @@
 
 The Average Calculator HTTP Microservice is designed to expose a REST API that retrieves numbers from a third-party test server and calculates the moving average of the latest numbers within a specified window size.
 
--Supports fetching numbers based on predefined categories: prime (p), Fibonacci (f), even (e), and random (r).
--Maintains a unique set of numbers within a fixed window size.
--Discards duplicates and ignores API responses that exceed 500ms.
--Provides real-time updates on the stored numbers and their average.
+- Supports fetching numbers based on predefined categories: prime (p), Fibonacci (f), even (e), and random (r).
+
+- Maintains a unique set of numbers within a fixed window size.
+
+- Discards duplicates and ignores API responses that exceed 500ms.
+
+- Provides real-time updates on the stored numbers and their average.
+
 
 ### Installation
 
@@ -29,9 +33,9 @@ PORT=
 AUTH_TOKEN=
 ```
 4. run server.js
-   ```
-   node server.js
-   ```
+```
+node server.js
+```
 
 # Social Media Analytics Microservice
 
@@ -44,6 +48,9 @@ This is a Node.js-based microservice that fetches and analyzes user activity fro
 - The latest posts.
 
 - The most popular posts based on comment count.
+
+## output:
+![Example Output 1](https://github.com/AdityasWorks/E22CSEU0979/blob/main/socialMedia/Screenshot%202025-04-04%20122228.png)
 
 ### Installation
 
@@ -66,7 +73,7 @@ BASE_URL=
 AUTH_TOKEN=
 ```
 4. run server.js
-   ```
-   node server.js
-   ```
+```
+node server.js
+```
 
